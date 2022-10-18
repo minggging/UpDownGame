@@ -13,6 +13,7 @@
 		D2B0D39928F6C2CC008E0537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B0D39728F6C2CC008E0537 /* Main.storyboard */; };
 		D2B0D39B28F6C2CD008E0537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B0D39A28F6C2CD008E0537 /* Assets.xcassets */; };
 		D2B0D39E28F6C2CD008E0537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B0D39C28F6C2CD008E0537 /* LaunchScreen.storyboard */; };
+		D2B0D3A628FDB960008E0537 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0D3A528FDB960008E0537 /* CreditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D2B0D39A28F6C2CD008E0537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2B0D39D28F6C2CD008E0537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2B0D39F28F6C2CD008E0537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B0D3A528FDB960008E0537 /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				D2B0D39328F6C2CC008E0537 /* SceneDelegate.swift */,
 				D2B0D39528F6C2CC008E0537 /* ViewController.swift */,
 				D2B0D39728F6C2CC008E0537 /* Main.storyboard */,
+				D2B0D3A528FDB960008E0537 /* CreditViewController.swift */,
 				D2B0D39A28F6C2CD008E0537 /* Assets.xcassets */,
 				D2B0D39C28F6C2CD008E0537 /* LaunchScreen.storyboard */,
 				D2B0D39F28F6C2CD008E0537 /* Info.plist */,
@@ -141,6 +144,7 @@
 				D2B0D39628F6C2CC008E0537 /* ViewController.swift in Sources */,
 				D2B0D39228F6C2CC008E0537 /* AppDelegate.swift in Sources */,
 				D2B0D39428F6C2CC008E0537 /* SceneDelegate.swift in Sources */,
+				D2B0D3A628FDB960008E0537 /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = ASQWJ74VPR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UpDownGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -317,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = ASQWJ74VPR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UpDownGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
